@@ -41,7 +41,7 @@ const handleSubmit = (e: React.FormEvent) => {
 };
 
   const [copied, setCopied] = useState(false)
-  const tokenAddress = "So1ana70kenAddre55111111111111111111111111111"
+  const tokenAddress = "tkSsKmPhGtHdaJjS8y9EVqqjyzhnbddjaUtUrxspump"
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(tokenAddress)
